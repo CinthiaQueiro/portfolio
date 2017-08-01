@@ -1,0 +1,15 @@
+<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" 
+ng-controller="ModalCtrl as $ctrl">
+	<a ng-click="$ctrl.open('lg', descricao, fundo, texto)">
+	  <div class="project">
+	    <div class="box"> 
+	      <div class="description">
+	        <h3>{{descricao}}</h3>
+	        <small>{{empresa}}</small>
+	      </div>
+	    </div>
+	    <img src="img/{{fundo}}" class="thumb-project">
+	  </div>
+	</a>
+</div>
+

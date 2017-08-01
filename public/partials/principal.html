@@ -1,0 +1,39 @@
+<cabecalho></cabecalho>
+<nav>
+  <div class="container text-center">
+    <a ng-href="https://github.com/CinthiaQueiro" target="_blank">GitHub</a>
+    <a ng-href="curriculum.pdf" target="_blank">Curriculum</a>
+  </div>
+</nav>
+<section class="portfolio">
+  <div class="container">
+    <div class="row" ng-controller="jobs">            
+        <pagina ng-repeat="infoPaginas in paginas" 
+          descricao={{infoPaginas.descricao}}
+          empresa={{infoPaginas.empresa}}
+          fundo={{infoPaginas.fundo}}
+          link={{infoPaginas.link}}
+          texto={{infoPaginas.texto}}
+        >
+        </pagina>       
+    </div>
+  </div>
+</section>
+
+<div ng-controller="ModalCtrl as $ctrl" class="modal-demo">
+  <script type="text/ng-template" id="myModalContent.html">
+      <div class="modal-header">
+          <h3 class="modal-title" id="modal-title">{{$ctrl.desc}}</h3>
+      </div>
+      <div class="modal-body" id="modal-body">
+        <img src="img/{{$ctrl.fundo}}" alt="img01" class="img-responsive">
+        <p>{{$ctrl.texto}}
+        </p>
+      </div>
+      <div class="modal-footer">
+          <button class="btn btn-primary" type="button" ng-click="$ctrl.ok()">Fechar</button>
+      </div>
+  </script> 
+</div>
+<footer>
+</footer>

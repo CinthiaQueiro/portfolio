@@ -1,0 +1,218 @@
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/Merriweather-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/Merriweather-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/Merriweather-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+body{
+  font-family: Merriweather;
+  font-size: 14px;
+  font-weight: 400;
+  color: #444;
+}
+
+a {
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.thumb-project {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+header .container, div.infoJob {
+  max-width: 700px;
+}
+
+.container h1 {
+  margin-top: 74px;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+header h4 {
+  margin-top: 35px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.container .info {
+  display: block;
+  text-align: center;
+  line-height: 25px;
+}
+
+nav {
+  display: block;
+  padding: 20px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+nav a:visited, .btn-default:visited,
+nav a, .btn-default {
+  display: inline-block;
+  margin: 0px 5px;
+  padding: 10px 18px;
+  color: #777;
+  text-decoration: none !important;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:last-child, .btn-default:last-child, 
+nav a:first-child, .btn-default:first-child {
+  margin: 0px;
+}
+
+nav a:active, .btn-default:active
+nav a:focus, .btn-default:focus,
+nav a:hover, .btn-default:hover {
+  cursor: pointer;
+  color: #337ab7;
+  text-decoration: none !important;
+  border: 1px solid #337ab7;
+}
+
+.portfolio .container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.project {
+  position: relative;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.project .box {
+  opacity: 0;
+  position: absolute;
+  cursor: pointer;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  color: #fff;
+  font-weight: 300;
+  justify-content: center;
+  padding-top: 15%;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.project .box:hover {opacity: 1;}
+
+.project .box h3 {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 0px !important;
+  margin-bottom: 10px !important;
+}
+
+.project .box .description{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.project .box .description small{
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.project .image{
+  width: 100%;
+  min-height: 250px;
+  overflow: hidden;
+}
+
+.project .image img{
+
+}
+
+footer{
+  width: 100%;
+  margin-top: 50px;
+  padding: 15px;
+  color: #777;
+  text-align: center;
+  border-top: 1px solid #ebebeb;
+}
+
+.modal-body p {
+  margin: 30px 20px;
+  color: #2D2D2D;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0.2px;
+}

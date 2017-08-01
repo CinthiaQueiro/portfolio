@@ -1,0 +1,17 @@
+div.conteudo {padding-left: 15px;}
+h1, h2, h3 {margin-left: 15px;}
+h1.nome {margin-bottom: 20px;}
+p.linha {margin:0; margin-bottom: 2px; padding-left: 15px;}
+p.contatos {margin-bottom: 5px;}
+.secao {
+	padding-left: 15px;		
+	margin-top: 1em;
+}
+td {width: 20em; text-align: center;}
+tr.par {
+	background-color: #ddd;
+}
+td.ruim {color: #a99;}
+td.regular {color: #a77;}
+td.bom {color: #a55;}
+td.otimo {color: #a33;}
