@@ -53,7 +53,7 @@ angular.module('portfolio')
 			{
 				descricao: 'Projeto Contém1g', 
 				empresa: 'PARADIGM LANGUAGE SUPPORT',
-				fundo: 'contem1g.gif',
+				fundo: 'contem1g.png',
 				link: 'contem1g',
 				texto: 'Na Contém1g atuei no desenvolvimento de diversas páginas, por exemplo Seja uma Consultora.'
 			},
