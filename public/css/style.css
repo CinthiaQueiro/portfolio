@@ -144,12 +144,13 @@ nav a:hover, .btn-default:hover {
 }
 
 .project {
-  position: relative;
-  margin-bottom: 30px;
-  padding: 10px;
-  border: 1px solid #ebebeb;
-  border-radius: 3px;
-  background: #fff;
+    position: relative;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    background: #fff;
+    min-height: 210px;
 }
 
 .project .box {
